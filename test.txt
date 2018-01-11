@@ -27,6 +27,8 @@ cd ~/github/生成したいフォルダー名(例えばgittest)
   git branch
 →  master
   * testbranch
+４）先ほどのやりかとと同じ、ただし、最後に
+  git push origin testbranch
 
 
 
