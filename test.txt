@@ -1,2 +1,13 @@
-hello git!
+Git Hubの使い方
+cd ~/github/生成したいフォルダー名(例えばgittest)
+１）ローカルリポジトリを作成
+  git init
+２）ローカルリポジトリにファイルの変更点を追加（インデックスに追加）
+  git add ファイル名
+３）ローカルリポジトリにインデックスに追加したファイルを登録
+  git commit -m "変更点などのコメント"
+４）追加したインデックス（ファイルの変更点）をGitHubに作成
+  git remote add origin リポジトリのURI
 
+５）ローカルリポジトリのファイルをGitHubのリポジトリに送信
+  git push origin master
