@@ -30,6 +30,7 @@ cd ~/github/生成したいフォルダー名(例えばgittest)
 ４）先ほどのやりかとと同じ、ただし、最後に
   git push origin testbranch
 
-
-
-２）マージ（融合する）
+〜〜マージ（融合する）〜〜
+ブランチを結合（マージ）する
+※$ git checkoutで，結合したいブランチに移動して…
+$ git merge 取り込むブランチ名
